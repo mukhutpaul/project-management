@@ -2,6 +2,7 @@ client/node_modules
 server/node_modules
 client/dist/
 server/dist/
-client/.env
+client/.env.local
+client/.env.exemple
 server/.env
 client/.next/
