@@ -44,7 +44,7 @@ const formFields = {
 
 const AuthProvider = ({ children }: any) => {
   return (
-    <div className="mt-10">
+    <div>
       <Authenticator formFields={formFields}>
         {({ user }: any) =>
           user ? (
